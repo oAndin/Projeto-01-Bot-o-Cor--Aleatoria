@@ -11,9 +11,10 @@ bodyEl.style.background = "pink";
 btnEl.addEventListener("click",addColor);
 
 function addColor(){
-    console.log("click");
-    var color = parseInt(Math.random()*VideoColorSpace.lenght);
+    console.log("clicked");
+    var color = parseInt(Math.random() * colors.length);
     bodyEl.style.background = colors[color];
+    var count;
     count++;
 }
 console.log(colors);
