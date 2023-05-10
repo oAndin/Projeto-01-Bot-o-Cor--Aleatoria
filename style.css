@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body .btn {
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 1rem;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #000000;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 1px 6px 10px 5px #000000 ;
+}
+
+body .btn:active {
+    outline: none;
+    position: relative;
+    top: 10px;
+    box-shadow: 1px 1px 3px 3px #000000 ;
+}
