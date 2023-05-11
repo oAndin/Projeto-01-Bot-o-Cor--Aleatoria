@@ -3,5 +3,5 @@
 
 ## Nada especial, apenas para fins educativos e para começar a práticar com JavaScript.
 
-# Feat futura -> Criar um codigo com Math.random para substituir o "var = colors[...]" criando cores aleatórias com o hexadecimal(#ffffff)!
-## Mas ainda não sei como mudar apenas uma parte em especifico da string (O codigo depende de cores declaradas dentro do "var = colors[]" para trocar as cores), limitações intelectuais!
+# Feat futura -> Criar um codigo com Math.random para substituir o "var = colors[...]" criando cores aleatórias com o hexadecimal(#ffffff)
+## Atualizando sobre o Math.random() -> Utilizar template strings para concatenar o "#" e o número hexadecimal gerado pela function para gerar a cor aleatória, o problema? Não sei fazer isso, ainda. A evolução dessa ideia vai ser adicionar as letras aos valores aleatorios gerados. 
