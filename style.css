@@ -32,12 +32,11 @@ body .btn {
 }
 
 body .btn:hover{
-    background-color: #272727;
-    color: #fff;
+    background-color: #999999;
+    color: #ffffff90;
 }
 
 body .btn:active {
-    outline: none;
     position: relative;
     top: 10px;
     box-shadow: 1px 1px 3px 3px #000000 ;
