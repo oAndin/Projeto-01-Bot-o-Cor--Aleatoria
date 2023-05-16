@@ -27,13 +27,14 @@ btnEl.addEventListener("click",addColor);
 function addColor(){
     console.log("clicked");
     var R = parseInt(Math.random() * 256);
-    console.log(R);
+    // console.log(R);
     var G = parseInt(Math.random() * 256);
-    console.log(G);
+    // console.log(G);
     var B = parseInt(Math.random() * 256);
-    console.log(B);
+    // console.log(B);
     const RGB = `rgb(${R},${G},${B})`;
     bodyEl.style.background = RGB;
+    // console.log(bodyEl.style.background); 
     var count = count++;
 }
 
